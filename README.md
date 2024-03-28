@@ -26,8 +26,3 @@ GOOGLE_SPREADSHEET_ID=(direct write work in progress, import CSV for now)
 2. then run `poetry install` to install all requirements.  
 ## Execute
 With an active shell, run `python main.py`.  The tool will print out the alliance tag, name, members and position of the current account after a while.  Then it will go through the rankings without further logging.  All errors will be printed, safe to ignore errors do not crash/exit the program.
-## Linting
-The project supports and encourages automatic linting. Please use the tools  
-- `black .` - For automatic formatting
-- `isort .` - For automatic import sorting
-- `flake8` - For PEP8 compliance checks
