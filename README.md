@@ -6,12 +6,12 @@ This is a python implementation to get alliance members' power and merits.
 - ADB (https://developer.android.com/tools/releases/platform-tools)
 - Poetry (https://python-poetry.org/docs/#installation)
 - Tesseract (https://github.com/UB-Mannheim/tesseract/wiki))
-- Android Emulator - Personally I used the emulator **LDPlayer9** (https://www.ldplayer.net/versions)
+- Android Emulator - Most android emulators will work, I use **LDPlayer9** (https://www.ldplayer.net/versions)
 ### On Android Emulator
-- Android 9 or lower
-- Resolution set at **1280 x 720**
-- Latest CoD APK + Logged into account
-- AdbClipboard-2.0_3-release.apk (https://github.com/PRosenb/AdbClipboard/releases)
+- Use Android version 9 or lower
+- Resolution needs to be at **1280 x 720**
+- Download the Call of Dragons app and log into account
+- Sideload and install AdbClipboard-2.0_3-release.apk (https://github.com/PRosenb/AdbClipboard/releases)
 ## Set Up
 ### dotenv file
 Copy `.env.example` to `.env` and fill it with install locations.  
