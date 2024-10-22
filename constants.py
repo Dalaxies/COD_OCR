@@ -14,19 +14,19 @@ class Images:
 
 
 class BoundingBoxes:
-    POWER = BoundingBox(min_x=115, min_y=515, max_x=315, max_y=550)
-    MERIT = BoundingBox(min_x=820, min_y=515, max_x=1020, max_y=550)
-    LORD_ID = BoundingBox(min_x=910, min_y=268, max_x=1019, max_y=288)
-    ALLIANCE_MEMBERS = BoundingBox(min_x=360, min_y=610, max_x=450, max_y=635)
-    ALLIANCE_NAME = BoundingBox(min_x=120, min_y=450, max_x=450, max_y=485)
+    POWER = BoundingBox(min_x=450, min_y=205, max_x=700, max_y=245)
+    MERIT = BoundingBox(min_x=900, min_y=205, max_x=1140, max_y=245)
+    LORD_ID = BoundingBox(min_x=240, min_y=295, max_x=355, max_y=320)
+    ALLIANCE_MEMBERS = BoundingBox(min_x=360, min_y=595, max_x=460, max_y=625)
+    ALLIANCE_NAME = BoundingBox(min_x=100, min_y=415, max_x=450, max_y=455)
     OWN_POSITION = BoundingBox(min_x=0, min_y=0, max_x=69, max_y=69)
 
 
 class Coordinates:
     MENU_TOGGLE = Coordinate(1237, 660)
-    OPEN_ALLIANCE = Coordinate(983, 667)
-    OPEN_ALLIANCE_SETTINGS = Coordinate(992, 73)
-    OPEN_ALLIANCE_RANKINGS = Coordinate(945, 225)
+    OPEN_ALLIANCE = Coordinate(960, 667)
+    OPEN_ALLIANCE_SETTINGS = Coordinate(992, 120)
+    OPEN_ALLIANCE_RANKINGS = Coordinate(570, 510)
     LIST_ENTRY = Coordinate(500, 350)
     INFO_BUTTON = Coordinate(478, 415)
     LIST_ENTRY_MIDDLE = Coordinate(800, 351)
