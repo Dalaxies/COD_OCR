@@ -29,8 +29,8 @@ class Coordinates:
     OPEN_ALLIANCE_RANKINGS = Coordinate(570, 510)
     LIST_ENTRY = Coordinate(500, 350)
     INFO_BUTTON = Coordinate(478, 415)
-    LIST_ENTRY_MIDDLE = Coordinate(800, 351)
-    LIST_ENTRY_MIDDLE_UP = Coordinate(800, 260)
+    LIST_ENTRY_MIDDLE = Coordinate(800, 350)
+    LIST_ENTRY_MIDDLE_UP = Coordinate(800, 259)
 
 
 class Offsets:
